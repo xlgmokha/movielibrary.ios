@@ -1,0 +1,5 @@
+language: objective-c
+before_install:
+  - brew update
+  - brew install xctool
+script: xctool -workspace MovieLibrary.xcworkspace -scheme MovieLibrary test TEST_AFTER_BUILD=YES TEST_HOST=''
