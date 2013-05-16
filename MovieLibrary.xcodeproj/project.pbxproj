@@ -21,7 +21,6 @@
 		CD7ADE68174315F400B5B281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADE48174315F400B5B281 /* UIKit.framework */; };
 		CD7ADE69174315F400B5B281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADE4A174315F400B5B281 /* Foundation.framework */; };
 		CD7ADE71174315F400B5B281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD7ADE6F174315F400B5B281 /* InfoPlist.strings */; };
-		CD7ADE74174315F400B5B281 /* MovieLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7ADE73174315F400B5B281 /* MovieLibraryTests.m */; };
 		CDD4CA5D17431B260096B316 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD4CA5C17431B260096B316 /* SampleSpec.m */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +53,6 @@
 		CD7ADE66174315F400B5B281 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CD7ADE6E174315F400B5B281 /* MovieLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		CD7ADE70174315F400B5B281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CD7ADE72174315F400B5B281 /* MovieLibraryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieLibraryTests.h; sourceTree = "<group>"; };
-		CD7ADE73174315F400B5B281 /* MovieLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieLibraryTests.m; sourceTree = "<group>"; };
 		CDD4CA5C17431B260096B316 /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
 		D91DCCBA6E0B41B789B58675 /* Pods-MovieLibraryTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieLibraryTests.xcconfig"; path = "Pods/Pods-MovieLibraryTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -144,8 +141,6 @@
 		CD7ADE6C174315F400B5B281 /* MovieLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
-				CD7ADE72174315F400B5B281 /* MovieLibraryTests.h */,
-				CD7ADE73174315F400B5B281 /* MovieLibraryTests.m */,
 				CD7ADE6D174315F400B5B281 /* Supporting Files */,
 				CDD4CA5C17431B260096B316 /* SampleSpec.m */,
 			);
@@ -309,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7ADE74174315F400B5B281 /* MovieLibraryTests.m in Sources */,
 				CDD4CA5D17431B260096B316 /* SampleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
