@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E61FD95BC314123A6B84138 /* libPods-MovieLibraryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89060F98329F48E6ADCAAFE6 /* libPods-MovieLibraryTests.a */; };
+		CD11127617448DBD00F3F1DA /* MovieLibrarySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11127517448DBD00F3F1DA /* MovieLibrarySpec.m */; };
 		CD7ADE49174315F400B5B281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADE48174315F400B5B281 /* UIKit.framework */; };
 		CD7ADE4B174315F400B5B281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADE4A174315F400B5B281 /* Foundation.framework */; };
 		CD7ADE4D174315F400B5B281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADE4C174315F400B5B281 /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		89060F98329F48E6ADCAAFE6 /* libPods-MovieLibraryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieLibraryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD11127517448DBD00F3F1DA /* MovieLibrarySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieLibrarySpec.m; sourceTree = "<group>"; };
 		CD7ADE45174315F400B5B281 /* MovieLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7ADE48174315F400B5B281 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD7ADE4A174315F400B5B281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +145,7 @@
 			children = (
 				CD7ADE6D174315F400B5B281 /* Supporting Files */,
 				CDD4CA5C17431B260096B316 /* SampleSpec.m */,
+				CD11127517448DBD00F3F1DA /* MovieLibrarySpec.m */,
 			);
 			path = MovieLibraryTests;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDD4CA5D17431B260096B316 /* SampleSpec.m in Sources */,
+				CD11127617448DBD00F3F1DA /* MovieLibrarySpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
