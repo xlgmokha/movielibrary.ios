@@ -18,7 +18,7 @@
 }
 -(int)total_books
 {
-  return 1;
+  return 0;
 }
 @end
 
