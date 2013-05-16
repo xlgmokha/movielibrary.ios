@@ -1,3 +1,5 @@
+task :default => :spec
+
 task :xcode do
   system "open *.xcworkspace"
 end
