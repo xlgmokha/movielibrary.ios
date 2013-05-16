@@ -1,17 +1,22 @@
 task :default => :spec
 
+task :setup do
+  system 'brew update'
+  system 'brew install xctool'
+end
+
 task :xcode do
   system "open *.xcworkspace"
 end
 
 task :clean do
-  system "xcodebuild -workspace MovieLibrary.xcworkspace/ -sdk iphonesimulator -configuration Debug -scheme Pods-MovieLibraryTests clean"
+  system "xctool clean"
 end
 
-task :build => :clean do
-  system "xcodebuild -workspace MovieLibrary.xcworkspace/ -sdk iphonesimulator -configuration Debug -scheme Pods-MovieLibraryTests build 2>&1"
+task :build do
+  system "xctool -scheme Pods-MovieLibraryTests clean build"
 end
 
-task :spec => :build do
-  system "xctool -workspace MovieLibrary.xcworkspace -scheme MovieLibrary test TEST_AFTER_BUILD=YES TEST_HOST=''"
+task :spec do
+  system "xctool test TEST_AFTER_BUILD=YES TEST_HOST=''"
 end
