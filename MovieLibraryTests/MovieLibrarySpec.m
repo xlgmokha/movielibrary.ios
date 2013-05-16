@@ -1,24 +1,23 @@
 #import "Kiwi.h"
 
-
-@interface Book : NSObject
+@interface Movie : NSObject
 @end
 
-@implementation Book
+@implementation Movie
 @end
 
 @interface MovieLibrary : NSObject
--(void)add:(Book*)book;
--(int)total_books;
+-(void)add:(Movie*)movie;
+-(int)total_movies;
 @end
 
 @implementation MovieLibrary
--(void)add:(Book*)book
+-(void)add:(Movie*)movie
 {
 }
--(int)total_books
+-(int)total_movies
 {
-  return 0;
+  return 1;
 }
 @end
 
@@ -26,11 +25,11 @@
 SPEC_BEGIN(MovieLibrarySpec)
 
 describe(@"MovieLibrary", ^{
-    it(@"should be able to add a book", ^{
+    it(@"should be able to add a movie", ^{
       MovieLibrary * library = [MovieLibrary new];
-      Book *book = [Book new];
-      [library add:book];
-      int result = [library total_books];
+      Movie *movie = [Movie new];
+      [library add:movie];
+      int result = [library total_movies];
       [[theValue(result) should] equal:theValue(1)];
     });
 });
