@@ -11,7 +11,6 @@
 -(void)add:(Movie*)movie;
 -(int)total_movies;
 -(BOOL)includes:(Movie*)movie;
-//@property (strong, nonatomic) NSMutableArray * movies;
 @end
 
 @implementation MovieLibrary
