@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8E61FD95BC314123A6B84138 /* libPods-MovieLibraryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89060F98329F48E6ADCAAFE6 /* libPods-MovieLibraryTests.a */; };
 		CD11127617448DBD00F3F1DA /* MovieLibrarySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11127517448DBD00F3F1DA /* MovieLibrarySpec.m */; };
+		CD1AEAE5174F065400F3AC0F /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AEAE3174F065400F3AC0F /* Movie.m */; };
+		CD1AEAE6174F065400F3AC0F /* MovieLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AEAE4174F065400F3AC0F /* MovieLibrary.m */; };
 		CD7ADE49174315F400B5B281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADE48174315F400B5B281 /* UIKit.framework */; };
 		CD7ADE4B174315F400B5B281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADE4A174315F400B5B281 /* Foundation.framework */; };
 		CD7ADE4D174315F400B5B281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADE4C174315F400B5B281 /* CoreGraphics.framework */; };
@@ -38,6 +40,10 @@
 /* Begin PBXFileReference section */
 		89060F98329F48E6ADCAAFE6 /* libPods-MovieLibraryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieLibraryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD11127517448DBD00F3F1DA /* MovieLibrarySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieLibrarySpec.m; sourceTree = "<group>"; };
+		CD1AEAE3174F065400F3AC0F /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		CD1AEAE4174F065400F3AC0F /* MovieLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieLibrary.m; sourceTree = "<group>"; };
+		CD1AEAE7174F07C000F3AC0F /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		CD1AEAE8174F07C000F3AC0F /* MovieLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieLibrary.h; sourceTree = "<group>"; };
 		CD7ADE45174315F400B5B281 /* MovieLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7ADE48174315F400B5B281 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD7ADE4A174315F400B5B281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +125,10 @@
 		CD7ADE4E174315F400B5B281 /* MovieLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				CD1AEAE7174F07C000F3AC0F /* Movie.h */,
+				CD1AEAE8174F07C000F3AC0F /* MovieLibrary.h */,
+				CD1AEAE3174F065400F3AC0F /* Movie.m */,
+				CD1AEAE4174F065400F3AC0F /* MovieLibrary.m */,
 				CD7ADE57174315F400B5B281 /* AppDelegate.h */,
 				CD7ADE58174315F400B5B281 /* AppDelegate.m */,
 				CD7ADE4F174315F400B5B281 /* Supporting Files */,
@@ -300,6 +310,8 @@
 			files = (
 				CD7ADE55174315F400B5B281 /* main.m in Sources */,
 				CD7ADE59174315F400B5B281 /* AppDelegate.m in Sources */,
+				CD1AEAE5174F065400F3AC0F /* Movie.m in Sources */,
+				CD1AEAE6174F065400F3AC0F /* MovieLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
